@@ -11,7 +11,7 @@ class Student
   end
 
   def self.all
-    sql = <<-SQL# retrieve all the rows from the "Students" database
+    sql = <<-SQL
        SELECT *
        FROM students
     SQL
